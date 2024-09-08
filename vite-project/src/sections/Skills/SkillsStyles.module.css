@@ -1,0 +1,40 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.skillList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates 2 equal columns */
+    gap: 30px;
+    /* Adds space between the skills */
+    justify-content: center;
+    max-width: 400px;
+    /* Adjusts the width of the skill list */
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.skillItem::before {
+    content: "→";
+    /* Arrow symbol */
+    margin-right: 10px;
+    /* Adjusts space between arrow and text */
+    color: #333;
+    /* Sets the color of the arrow */
+    font-size: 5rem;
+    /* Adjusts the size of the arrow */
+}

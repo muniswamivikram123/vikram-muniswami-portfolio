@@ -1,0 +1,56 @@
+.projectContainer {
+    /* Style for the project container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.projectLink {
+    text-decoration: none;
+    /* Removes the default underline from the link */
+}
+
+.projectBox {
+    /* Style for the clickable box */
+    padding: 20px;
+    background-color: #8cc7c2;
+    /* Background color of the box */
+    border: none;
+    /* Border style */
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+    /* Rounded corners */
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    /* Text color */
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s, transform 0.3s;
+
+    /* Smooth transition on hover */
+}
+
+.projectBox:hover {
+    background-color: #d4e5eb;
+    /* Darker background on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge the box on hover */
+}
+
+.container {
+    text-align: center;
+    /* Center align all text within the container */
+}
+
+.sectionTitle {
+    font-size: 3em;
+    /* Adjust the font size as needed */
+    margin-bottom: 10px;
+    /* Add some space below the title */
+    color: #333;
+    /* Text color */
+    text-align: center;
+    /* Center align the title */
+}

@@ -1,0 +1,64 @@
+:root {
+    --background-color: #c19393;
+    --btn-color: #8cc7c2;
+    --btn-text-color: #232221;
+    --project-card-bg: #ffffff00;
+    --text-color: #222;
+    --form-text-color: #555;
+    --footer-ext-color: #888;
+
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+h1,
+h2,
+h3,
+p {
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h3,
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    font-family: 'Rubic', sans-serif;
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.sectionTitle {
+    margin-bottom: 30px;
+}
+
+.hover {
+    cursor: pointer;
+}
